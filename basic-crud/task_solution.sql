@@ -6,4 +6,4 @@ Insert into tasks (user_id, title, description) values(1, 'Finish PostgreSQL pra
 
 -- Solution 2
 -- Question: Get all tasks for user 1
-Select * from tasks where user_id = 1 returning *;
+Select * from tasks where user_id = 1;
